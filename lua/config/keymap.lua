@@ -31,6 +31,7 @@ wk.add({
   { "<Leader>fr", ts.oldfiles, desc = "Recent files" },
 
   { "<Leader>g", group = "Git" },
+  { "<Leader>gg", "<Cmd>Neogit<CR>", desc = "Neogit" },
   { "<Leader>gb", ts.git_branches, desc = "Branches" },
   { "<Leader>gc", ts.git_commits, desc = "commits" },
   { "<Leader>gs", ts.git_status, desc = "status" },

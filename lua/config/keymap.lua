@@ -61,6 +61,9 @@ wk.add({
   { "<Leader>ls", ts.lsp_document_symbols, desc = "Document Symbol" },
   { "<Leader>lS", ts.lsp_workspace_symbols, desc = "Workspace Symbol" },
 
+  { "<Leader>P", group = "Project" },
+  { "<Leader>Po", "<Cmd>Telescope project<CR>", desc = "Open" },
+
   { "<Leader>t", group = "Tab" },
   { "jk", "<C-\\><C-n>", desc = "Exit terminal mode", mode = "t" },
   { "<Leader>tc", "<Cmd>tabclose<CR>", desc = "Close" },

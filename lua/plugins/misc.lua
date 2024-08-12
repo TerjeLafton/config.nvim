@@ -68,13 +68,16 @@ return {
 
   {
     "NeogitOrg/neogit",
-    dependencies = {
-      "nvim-lua/plenary.nvim",
-      "sindrets/diffview.nvim",
-      "nvim-telescope/telescope.nvim",
-    },
+    dependencies = { "nvim-lua/plenary.nvim", "sindrets/diffview.nvim", "nvim-telescope/telescope.nvim" },
     version = "*",
     cmd = "Neogit",
+    config = true,
+  },
+
+  {
+    "ahmedkhalf/project.nvim",
+    version = "*",
+    main = "project_nvim",
     config = true,
   },
 }

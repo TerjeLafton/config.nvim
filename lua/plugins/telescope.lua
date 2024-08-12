@@ -38,6 +38,7 @@ local config = function(_, opts)
   local ts = require("telescope")
   ts.setup(opts)
   ts.load_extension("fzf")
+  ts.load_extension("projects")
 end
 
 return {

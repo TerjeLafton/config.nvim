@@ -37,3 +37,25 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 vim.opt.winwidth = 10
 vim.opt.winminwidth = 10
+
+-- Neovide
+if vim.g.neovide then
+  if jit.os == "OSX" then
+    vim.g.neovide_input_macos_option_key_i8s_meta = "only_left"
+    vim.o.guifont = "Berkeley Mono:h16"
+  else
+    vim.o.guifont = "Berkeley Mono:h12"
+  end
+
+  vim.g.neovide_floating_shadow = false
+  vim.g.neovide_fullscreen = false
+  vim.g.neovide_remember_window_size = false
+  vim.g.neovide_theme = "dark"
+  vim.g.neovide_underline_stroke_scale = 0.8
+  vim.g.neovide_unlink_border_highlights = true
+
+  vim.g.neovide_padding_top = 15
+  vim.g.neovide_padding_bottom = 15
+  vim.g.neovide_padding_right = 15
+  vim.g.neovide_padding_left = 15
+end

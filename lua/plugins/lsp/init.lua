@@ -1,4 +1,5 @@
 local servers = {
+  clojure_lsp = {},
   gopls = {},
   lua_ls = {},
   ocamllsp = {},

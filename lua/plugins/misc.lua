@@ -80,4 +80,11 @@ return {
     main = "project_nvim",
     config = true,
   },
+
+  {
+    "dundalek/parpar.nvim",
+    ft = "clojure",
+    dependencies = { "gpanders/nvim-parinfer", "julienvincent/nvim-paredit" },
+    config = true,
+  },
 }

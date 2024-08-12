@@ -1,5 +1,6 @@
 local opts = {
   formatters_by_ft = {
+    clojure = { "cljfmt" },
     elixir = { "mix" },
     go = { "goimports-reviser", "gofumpt", "golines" },
     heex = { "mix" },

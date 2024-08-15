@@ -1,12 +1,13 @@
-local servers = {
-  clojure_lsp = {},
-  gopls = {},
-  lua_ls = {},
-  ocamllsp = {},
-}
-
 local config = function(_, _)
   local lspconfig = require("lspconfig")
+
+  local servers = {
+    clojure_lsp = {},
+    gopls = {},
+    lexical = require("plugins.lsp.servers.lexical"),
+    lua_ls = {},
+    ocamllsp = {},
+  }
 
   local default_opts = {
     capabilities = require("cmp_nvim_lsp").default_capabilities(),

@@ -9,6 +9,7 @@ return {
   build = function()
     require("nvim-treesitter.install").update({ with_sync = true })
   end,
-  event = "VimEnter",
+  main = "nvim-treesitter.configs",
+  lazy = false,
   opts = opts,
 }

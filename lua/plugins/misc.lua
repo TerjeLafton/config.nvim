@@ -83,7 +83,7 @@ return {
 
   {
     "dundalek/parpar.nvim",
-    ft = { "clojure", "query" },
+    ft = { "clojure", "query", "dune" },
     dependencies = { "gpanders/nvim-parinfer", "julienvincent/nvim-paredit" },
     config = true,
   },

@@ -8,6 +8,7 @@ local opts = {
     ocaml = { "ocamlformat" },
     proto = { "buf" },
     rust = { "rustfmt" },
+    sql = { "sqlfluff" },
   },
 }
 

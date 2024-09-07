@@ -2,6 +2,7 @@ local config = function(_, _)
   local lspconfig = require("lspconfig")
 
   local servers = {
+    bufls = {},
     clojure_lsp = {},
     gopls = {},
     lexical = require("plugins.lsp.servers.lexical"),

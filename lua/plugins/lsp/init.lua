@@ -4,6 +4,7 @@ local config = function(_, _)
   local servers = {
     bufls = {},
     clojure_lsp = {},
+    gleam = {},
     gopls = {},
     lexical = require("plugins.lsp.servers.lexical"),
     lua_ls = {},

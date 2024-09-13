@@ -2,6 +2,7 @@ local opts = {
   formatters_by_ft = {
     clojure = { "cljfmt" },
     elixir = { "mix" },
+    gleam = { "gleam" },
     go = { "goimports-reviser", "gofumpt", "golines" },
     heex = { "mix" },
     lua = { "stylua" },

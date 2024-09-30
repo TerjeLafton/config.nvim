@@ -14,6 +14,7 @@ local config = function(_, _)
         vim_item.menu_hl_group = "@comment"
         vim_item.menu = ({
           lazydev = "[LSP]",
+          copilot = "[AI]",
           nvim_lsp = "[LSP]",
           luasnip = "[Snip]",
           buffer = "[Buf]",
@@ -56,6 +57,7 @@ local config = function(_, _)
     },
 
     sources = cmp.config.sources({
+      { name = "copilot", max_item_count = 1 },
       { name = "lazydev", group_index = 0 },
       { name = "nvim_lsp" },
       { name = "nvim_lsp_signature_help" },
@@ -98,6 +100,7 @@ return {
     "hrsh7th/cmp-path",
     "L3MON4D3/LuaSnip",
     "saadparwaiz1/cmp_luasnip",
+    { "zbirenbaum/copilot-cmp", config = true },
   },
   event = "InsertEnter",
   config = config,

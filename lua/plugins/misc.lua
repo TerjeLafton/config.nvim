@@ -87,4 +87,11 @@ return {
     dependencies = { "gpanders/nvim-parinfer", "julienvincent/nvim-paredit" },
     config = true,
   },
+
+  {
+    "zbirenbaum/copilot.lua",
+    cmd = "Copilot",
+    event = "InsertEnter",
+    opts = { suggestion = { enabled = false }, panel = { enabled = false } },
+  },
 }

@@ -13,7 +13,6 @@ local opts = {
           line.sep("", hl, theme.fill),
           tab.number(),
           tab.name(),
-          tab.close_btn(""),
           line.sep(" ", hl, theme.fill),
           hl = hl,
           margin = " ",

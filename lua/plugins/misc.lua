@@ -94,4 +94,13 @@ return {
     event = "InsertEnter",
     opts = { suggestion = { enabled = false }, panel = { enabled = false } },
   },
+
+  {
+    "saecki/crates.nvim",
+    event = { "BufRead Cargo.toml" },
+    version = "*",
+    opts = {
+      lsp = { enabled = true, actions = true, completion = true, hover = true },
+    },
+  },
 }

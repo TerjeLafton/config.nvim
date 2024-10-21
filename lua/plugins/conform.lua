@@ -1,6 +1,7 @@
 local opts = {
   formatters_by_ft = {
     clojure = { "cljfmt" },
+    css = { "prettierd" },
     elixir = { "mix" },
     gleam = { "gleam" },
     go = { "goimports-reviser", "gofumpt", "golines" },
@@ -9,6 +10,7 @@ local opts = {
     ocaml = { "ocamlformat" },
     proto = { "buf" },
     rust = { "rustfmt" },
+    scss = { "prettierd" },
     sql = { "sqlfluff" },
   },
 }

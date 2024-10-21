@@ -83,7 +83,7 @@ return {
 
   {
     "dundalek/parpar.nvim",
-    ft = { "clojure", "query", "dune" },
+    ft = { "clojure", "query", "dune", "yuck" },
     dependencies = { "gpanders/nvim-parinfer", "julienvincent/nvim-paredit" },
     config = true,
   },
@@ -103,4 +103,6 @@ return {
       lsp = { enabled = true, actions = true, completion = true, hover = true },
     },
   },
+
+  { "elkowar/yuck.vim", lazy = false },
 }

@@ -9,7 +9,7 @@ local config = function(_, _)
     lexical = require("plugins.lsp.servers.lexical"),
     lua_ls = {},
     ocamllsp = {},
-    rust_analyzer = {}
+    rust_analyzer = {},
   }
 
   local default_opts = {

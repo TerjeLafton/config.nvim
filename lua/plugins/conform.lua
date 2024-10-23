@@ -1,5 +1,6 @@
 local opts = {
   formatters_by_ft = {
+    c = { "clang-format" },
     clojure = { "cljfmt" },
     css = { "prettierd" },
     elixir = { "mix" },

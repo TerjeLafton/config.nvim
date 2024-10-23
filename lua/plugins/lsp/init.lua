@@ -3,6 +3,7 @@ local config = function(_, _)
 
   local servers = {
     bufls = {},
+    clangd = {},
     clojure_lsp = {},
     gleam = {},
     gopls = {},

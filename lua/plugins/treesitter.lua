@@ -10,6 +10,7 @@ return {
         "go",
         "lua",
         "typescript",
+        "rust",
         "typst",
         "zig",
 

@@ -6,6 +6,7 @@ return {
       go = { "gofumpt" },
       lua = { "stylua" },
       json = { "biome" },
+      rust = { "rustfmt" },
       typescript = { "biome" },
       zig = { "zigfmt" },
     },

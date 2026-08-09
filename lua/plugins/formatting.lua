@@ -8,6 +8,7 @@ return {
       json = { "biome" },
       rust = { "rustfmt" },
       typescript = { "biome" },
+      yaml = { "yamlfmt" },
       zig = { "zigfmt" },
     },
   },

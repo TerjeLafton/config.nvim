@@ -12,6 +12,8 @@ return {
         "typescript",
         "rust",
         "typst",
+        "json",
+        "yaml",
         "zig",
 
         -- General

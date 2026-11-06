@@ -45,31 +45,15 @@ return {
       },
     },
   },
-
-  {
-    "stevearc/overseer.nvim",
-    cmd = "OverseerRun",
-    ---@module 'overseer'
-    ---@type overseer.SetupOpts
-    opts = {
-      component_aliases = {
-        default = {
-          "on_exit_set_status",
-          "on_complete_notify",
-          { "on_complete_dispose", require_view = { "SUCCESS", "FAILURE" } },
-          {
-            "open_output",
-            direction = "tab",
-            focus = true,
-            on_start = "always",
-          },
-        },
-      },
-    },
-  },
   {
     "lewis6991/gitsigns.nvim",
     event = "VeryLazy",
     config = true,
+  },
+
+  {
+    "alexghergh/nvim-tmux-navigation",
+    event = "VeryLazy",
+    opts = { disable_when_zoomed = true },
   },
 }

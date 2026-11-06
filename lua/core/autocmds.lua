@@ -6,15 +6,6 @@ vim.api.nvim_create_autocmd("TextYankPost", {
   end,
 })
 
-vim.api.nvim_create_autocmd({ "TermOpen", "BufEnter" }, {
-  group = vim.api.nvim_create_augroup("terminal_insert", { clear = true }),
-  callback = function()
-    if vim.bo.buftype == "terminal" then
-      vim.cmd.startinsert()
-    end
-  end,
-})
-
 -- Format on save.
 vim.api.nvim_create_autocmd("BufWritePre", {
   group = vim.api.nvim_create_augroup("Formatting", { clear = true }),

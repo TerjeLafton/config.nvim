@@ -10,7 +10,6 @@ return {
     quickfile = { enabled = true },
     statuscolumn = { enabled = true },
     scratch = { enabled = true },
-    terminal = { enabled = true },
     toggle = { enabled = true },
 
     explorer = {

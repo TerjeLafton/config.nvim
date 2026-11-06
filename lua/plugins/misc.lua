@@ -67,16 +67,6 @@ return {
       },
     },
   },
-
-  {
-    "NeogitOrg/neogit",
-    dependencies = {
-      "sindrets/diffview.nvim",
-      "m00qek/baleia.nvim",
-      "folke/snacks.nvim",
-    },
-    cmd = "Neogit",
-  },
   {
     "lewis6991/gitsigns.nvim",
     event = "VeryLazy",

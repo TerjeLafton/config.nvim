@@ -13,8 +13,6 @@ snacks.keymap.set("n", "<C-h>", tmux_nav.NvimTmuxNavigateLeft, { desc = "Navigat
 snacks.keymap.set("n", "<C-j>", tmux_nav.NvimTmuxNavigateDown, { desc = "Navigate Down" })
 snacks.keymap.set("n", "<C-k>", tmux_nav.NvimTmuxNavigateUp, { desc = "Navigate Up" })
 snacks.keymap.set("n", "<C-l>", tmux_nav.NvimTmuxNavigateRight, { desc = "Navigate Right" })
-snacks.keymap.set("n", "<C-\\>", tmux_nav.NvimTmuxNavigateLastActive, { desc = "Last Active Pane" })
-snacks.keymap.set("n", "<C-Space>", tmux_nav.NvimTmuxNavigateNext, { desc = "Next Pane" })
 
 snacks.keymap.set("n", "<leader>d", "", { desc = "Diagnostics" })
 snacks.keymap.set("n", "<leader>dd", snacks.picker.diagnostics, { desc = "Workspace" })

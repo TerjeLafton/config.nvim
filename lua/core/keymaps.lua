@@ -4,7 +4,7 @@ local tmux_nav = require("nvim-tmux-navigation")
 
 snacks.keymap.set("n", "<leader>q", "<Cmd>quit<CR>", { desc = "Quit" })
 snacks.keymap.set("t", "<C-q>", "<Cmd>quit<CR>", { desc = "Quit" })
-snacks.keymap.set("n", "<leader>e", snacks.picker.explorer, { desc = "Explorer" })
+snacks.keymap.set("n", "<Leader>e", "<Cmd>Neotree filesystem toggle float<CR>", { desc = "Explorer" })
 snacks.keymap.set("n", "<Leader>y", "\"+yy", { desc = "Yank to Clipboard" })
 snacks.keymap.set("v", "<Leader>y", "\"+y", { desc = "Yank to Clipboard" })
 snacks.keymap.set({ "n", "v" }, "<Leader>p", "\"+p", { desc = "Put from Clipboard" })

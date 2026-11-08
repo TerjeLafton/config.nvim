@@ -3,7 +3,7 @@ return {
   cmd = "ConformInfo",
   opts = {
     formatters_by_ft = {
-      haskell = { "fourmolu" },
+      haskell = { "ormolu" },
       go = { "gofumpt" },
       lua = { "stylua" },
       json = { "biome" },

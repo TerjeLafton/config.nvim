@@ -8,6 +8,7 @@ return {
       require("nvim-treesitter").install({
         -- Languages
         "haskell",
+        "gleam",
         "go",
         "lua",
         "typescript",

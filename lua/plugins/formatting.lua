@@ -4,6 +4,7 @@ return {
   opts = {
     formatters_by_ft = {
       haskell = { "ormolu" },
+      gleam = { "gleam" },
       go = { "gofumpt" },
       lua = { "stylua" },
       json = { "biome" },

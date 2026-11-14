@@ -11,6 +11,7 @@ return {
       rust = { "rustfmt" },
       typescript = { "biome" },
       yaml = { "yamlfmt" },
+      qml = { "qmlformat" },
       zig = { "zigfmt" },
     },
   },

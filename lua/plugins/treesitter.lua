@@ -16,6 +16,7 @@ return {
         "typst",
         "json",
         "yaml",
+        "qmljs",
         "zig",
 
         -- General
